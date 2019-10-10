@@ -17,6 +17,9 @@ If no class regions overlap, the foreground region is deemed to be an object out
 If a single class region overlaps, the entire foreground region is assigned that class label.
 If more than one class region overlaps, a conditional random field is applied to divide the foreground region over the classes.
 
+#### Architecture
+![Training Architecture](train_arch.png?raw=true "Training Architecture")
+
 ---
 
 ### Code Sections
@@ -47,6 +50,12 @@ Additionally, `tmp` folders will be created with subfolders for the foreground m
 ---
 
 ### Results
+
+Results on PASCAL VOC 2012 Images
+![Pascal Results](pascal_results.png?raw=true "Pascal Results")
+
+Results on Garbage Images from the City of Amsterdam
+![Garbage Results](garbage_demo.gif?raw=true "Garbage Results")
 
 ---
 
