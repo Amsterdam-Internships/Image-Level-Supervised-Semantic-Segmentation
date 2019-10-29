@@ -58,5 +58,3 @@ Results on Garbage Images from the City of Amsterdam
 ![Garbage Results](garbage_demo.gif?raw=true "Garbage Results")
 
 ---
-
-### Installation instructions
